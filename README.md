@@ -1,1 +1,2 @@
-# snr_asm_smon_observer
+Simple app to export smon data
+

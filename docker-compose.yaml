@@ -1,0 +1,14 @@
+
+   
+version: '3.7'
+services:
+  smon-observer:
+    container_name: smon-observer
+    image: smon-observer
+    command: "node /smon-obs/app.js"
+    volumes:
+      - ./:/smon-obs
+      - ./logs:/logs
+    environment:
+      - NODE_TLS_REJECT_UNAUTHORIZED=0
+      - TZ=Europe/Berlin

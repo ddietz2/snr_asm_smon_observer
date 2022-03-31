@@ -12,3 +12,4 @@ services:
     environment:
       - NODE_TLS_REJECT_UNAUTHORIZED=0
       - TZ=Europe/Berlin
+      - FILE_LOGGING=true

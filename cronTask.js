@@ -99,6 +99,7 @@ function getAsmData(ressourceName, ressourceCount) {
 			} catch (error) {
 				winston.error(error.stack);
 				reject(error);
+				return;
 			}
 		}
 
